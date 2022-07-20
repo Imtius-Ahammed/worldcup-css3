@@ -22,7 +22,7 @@ header{
   
 }
 .airticle-container{
-  width: 90%;
+  width: 80%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -37,6 +37,7 @@ header{
 .head-title h1{
   font-size: 70px;
   margin-bottom: 0;
+  margin-top: 0;
 }
 
 .btn{
@@ -254,7 +255,7 @@ footer{
     text-align: center;
   }
   .head-img img{
-    width: 100%;
+    width: 100vw;
    
     
     
@@ -382,6 +383,7 @@ footer{
   width: 100%;
   display: flex;
   flex-direction:row;
+  justify-content: center;
  }
  .view-sec{
   display: block;
