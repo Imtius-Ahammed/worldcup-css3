@@ -1,0 +1,422 @@
+body{
+  font-family: 'Poppins', sans-serif;
+  margin: 50px;
+}
+/* heading-section  start*/
+header{
+ 
+  display: flex;
+  justify-content: center;
+
+}
+.container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top:  50px;
+
+  background-color: black;
+  color: white;
+  margin-bottom: 120px;
+  
+}
+.airticle-container{
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+}
+.head-title{
+  width:40%;
+  
+  
+}
+
+
+.head-title h1{
+  font-size: 70px;
+  margin-bottom: 0;
+  
+}
+
+
+
+.btn{
+  
+  margin-top: 30px;
+  margin-bottom: 111px;
+  padding: 16px, 25px, 16px, 25px;
+  
+  
+}
+
+.btn a{
+  text-decoration: none;
+  color: white;
+  background-color: #DD0000;
+  padding: 16px 25px;
+  position:relative;
+  text-transform: uppercase;
+ 
+  border-radius: 5px;  
+}
+.btn a::before{
+  content: attr(data-text);
+  position: absolute;
+  color: #14ff39;
+  background: linear-gradient(to right, #16222A 0%, #3A6073  51%, #16222A  100%);
+  text-align: center;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 2px solid #14ff39;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  width:100%;
+  height: 100%;
+  animation: animate 6s linear infinite;
+
+}
+@keyframes animate {
+  0%,10%,100%
+  {
+    width: 0;
+  }
+  70%,90%
+  {
+    width: 100%;
+  }
+  
+}
+.head-img{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+.head-img img{
+  width: 100%;
+  
+}
+/* heading-section  end*/
+
+/* main-section start */
+.container2{
+  width: 100%;
+  display: flex;
+  gap: 1em;
+  margin-bottom: 50px;
+  
+  
+ 
+}
+.detail-container{
+  display: flex;
+  width:100%;
+  gap: 1em;
+}
+.total-items{
+  width: 20%;
+  display: flex;
+  justify-content: right;
+}
+
+
+.features-items{
+  width: 100%;
+  height:30% ;
+  background-color: rgb(82, 55, 55);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 1em;
+  margin-top: 0;
+  
+  
+}
+.features-items a{
+  text-decoration: none;
+  color:white
+}
+
+.item .link{
+  width: 15vw;
+  height:5vh ;
+  cursor: pointer;
+  font-size: 10px;
+  font: weight 700 ;
+}
+
+.link.red{
+  background-color: rgb(199, 16, 16);
+  color: white;
+ 
+}
+.card-items{
+  
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 1em;
+  
+  
+  
+}
+.total-cards{
+  width: 80%;
+}
+.card-item{
+  border: 1px solid rgb(153, 50, 50);
+  border-radius: 15px;
+}
+.card-item img{
+  width: 100%;
+}
+.icons-container{
+  display: flex;
+  justify-content: space-between;
+  
+}
+.icons{
+  display: flex;
+  column-gap: 0.5em;
+  
+}
+
+
+.icons2{
+  display:flex;
+  column-gap: 0.5em;
+ 
+}
+.inside-sec{
+  padding: 20px;
+}
+.view-sec{
+  text-align: center;
+  display: none;
+  
+ 
+}
+.view-sec a{
+    text-decoration: none;
+    background-color: #DD0000;
+    color: white;
+    border-radius: 5px;   
+    padding: 12px 29px 12px 29px;
+    
+}
+/* footersection */
+footer{
+  width: 100%;
+  
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  margin-top: 130px;
+}
+.end-text{
+  text-align: center;
+}
+.ending-sec{
+  width: 90%;
+  padding: 130px;
+}
+.footer-sec{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  
+
+}
+
+.footer-item{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  
+  
+}
+.footer-sec a{
+  text-decoration: none;
+  color: white;
+  
+}
+.footer-icons a{
+  text-decoration: none;
+  padding: 10px;
+  font-size: 25px;
+  
+}
+.fa-facebook.fb{
+  color: rgb(66, 66, 209);
+}
+.fa-telegram.tele{
+  color: rgb(22, 141, 238);
+}
+.fa-whatsapp.app{
+  color: rgb(65, 196, 65);
+}
+
+/* responsive-section */
+@media only screen and (max-width:576px) {
+
+  .container{
+    width: 100%;
+    
+    
+  }
+  .airticle-container{
+    flex-direction: column;
+    align-items: center;
+    
+   
+  }
+  .head-title{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .head-img img{
+    width: 100%;
+   
+    
+    
+  }
+
+  .detail-container{
+    width: 100%;
+    flex-direction:column;
+    align-items: center;
+    
+  }
+ 
+  .total-items{
+    width: 100%;
+    
+  }
+  .features-items{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    border: 1px solid si;
+    
+  }
+  .item{
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+  }
+  .total-cards{
+    width: 100%;
+  }
+  .card-items{
+    
+    grid-template-columns: repeat(1,1fr);
+  }
+  .ending-sec{
+    width: 100%;
+  }
+ .footer-item{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+ }
+ .footer-icons{
+  width: 100%;
+  display: flex;
+  flex-direction:row;
+ }
+
+
+}
+
+
+
+@media only screen and (min-width:576px) and (max-width:1224px) {
+
+  .container{
+    width: 100%;
+    
+    
+  }
+  .airticle-container{
+    flex-direction: column;
+    align-items: center;
+    
+   
+  }
+  .head-title{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .head-img img{
+    width: 100%; 
+  }
+
+  .detail-container{
+    width: 100%;
+    flex-direction:column;
+    align-items: center;
+  }
+
+  .features-items{
+    width: 100%;
+    background-color: white;
+    
+    display: flex;
+    justify-content: center;
+    
+    flex-direction: row;
+    gap: 1em;
+   
+    
+  }
+
+  .link{
+    
+    border:none;
+    box-shadow: 0px 0px 3px 3px rgba(173,171,171,0.75);
+  }
+  .total-cards{
+    width: 100%;
+  }
+  .card-items{
+    
+    grid-template-columns: repeat(2,1fr);
+  }
+  .ending-sec{
+    width: 100%;
+  }
+ .footer-item{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+ }
+ .footer-icons{
+  width: 100%;
+  display: flex;
+  flex-direction:row;
+ }
+ .view-sec{
+  display: block;
+ }
+
+
+}
