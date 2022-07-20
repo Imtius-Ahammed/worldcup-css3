@@ -355,6 +355,13 @@ footer{
     width: 100vw;
    
   }
+  .item .link{
+    width: 60vw;
+    height:8vh ;
+    font-weight: 700;
+    font-size: 20px;
+    
+  }
 
   .detail-container{
     width: 100%;
