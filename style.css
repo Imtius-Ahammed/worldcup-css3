@@ -117,7 +117,6 @@ header{
   display: flex;
   gap: 1em;
   margin-bottom: 50px;
-
   
   
  
@@ -126,7 +125,6 @@ header{
   display: flex;
   width:100%;
   gap: 1em;
-  
 }
 .total-items{
   width: 20%;
@@ -138,7 +136,7 @@ header{
 .features-items{
   width: 100%;
   height: 40%;
-  background: linear-gradient(90deg, hsla(354, 95%, 24%, 1) 0%, hsla(234, 70%, 24%, 1) 100%);
+  background-color: rgb(53, 40, 40);
   display: flex;
   flex-direction: column;
   align-items: center;
